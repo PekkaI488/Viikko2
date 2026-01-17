@@ -44,7 +44,7 @@ public class App
                 case 2:
                     System.out.print("Anna uusi auton merkki: ");
                     String newBrand = sc.nextLine();
-                    System.out.print("Anna uusi auton malli; ");
+                    System.out.print("Anna uusi auton malli: ");
                     String newModel = sc.nextLine();
                     car.setBrand(newBrand);
                     car.setModel(newModel);
