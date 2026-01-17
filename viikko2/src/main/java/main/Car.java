@@ -25,7 +25,7 @@ public class Car {
 
     public void accelerate(int change) {
         if (change < 0) {
-            System.out.println("Nopeuden taytyy olla positiivinen luku.");
+            System.out.println("Nopeuden täytyy olla positiivinen luku.");
             return;
         }
         speed = speed + change;
